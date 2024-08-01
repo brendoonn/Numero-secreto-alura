@@ -110,6 +110,32 @@ button:disabled {
     background-color: gray;
 }
 
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+    background-color: white;
+}
+td {
+    border: 1px solid #000;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+    cursor: pointer; /* Adiciona um cursor de ponteiro para indicar que a célula é clicável */
+
+}
+.selected {
+    background-color: green; /* Cor para a célula selecionada */
+    color: white;
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
 @media screen and (max-width: 1250px) {
 
     h1 {
@@ -137,4 +163,5 @@ button:disabled {
     .container__informacoes {
         padding: 1rem
     }
+    
 }
